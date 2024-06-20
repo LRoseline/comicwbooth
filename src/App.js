@@ -10,7 +10,7 @@ function App() {
         document.title = `${process.env.REACT_APP_TITLE} : 굿즈 리스트`;
     }, []);
 
-    const header = { "Authentication": process.env.REACT_APP_TEST_KEY };
+    const header = { "Authentication": process.env.REACT_APP_PRODUCT_KEY };
 
     const urlParams = new URLSearchParams(window.location.search);
     const initialPage = parseInt(urlParams.get('page')) || 1;
