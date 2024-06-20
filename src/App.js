@@ -54,7 +54,7 @@ function App() {
         );
     }
 
-    if (prod && prod.cod === 403) {
+    if (prod && prod.cod === 401) {
         return (
             <div className="loading">
                 <div>
