@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/comicwbooth/static/css/main.78e2ab3d.css",
-    "main.js": "/comicwbooth/static/js/main.c124fa6f.js",
+    "main.js": "/comicwbooth/static/js/main.e30a72ba.js",
     "static/js/453.47d3d600.chunk.js": "/comicwbooth/static/js/453.47d3d600.chunk.js",
     "index.html": "/comicwbooth/index.html",
     "main.78e2ab3d.css.map": "/comicwbooth/static/css/main.78e2ab3d.css.map",
-    "main.c124fa6f.js.map": "/comicwbooth/static/js/main.c124fa6f.js.map",
+    "main.e30a72ba.js.map": "/comicwbooth/static/js/main.e30a72ba.js.map",
     "453.47d3d600.chunk.js.map": "/comicwbooth/static/js/453.47d3d600.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78e2ab3d.css",
-    "static/js/main.c124fa6f.js"
+    "static/js/main.e30a72ba.js"
   ]
 }
