@@ -32,7 +32,7 @@ function App() {
                 console.log(error);
                 setLoading(false);
             });
-    }, [header]);
+    }, []);
 
     const openDetail = (product) => {
         setSelectedProduct(product);
