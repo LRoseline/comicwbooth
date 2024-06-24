@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --transecond: 0.2s;
+}
+
+#root-body {
+  padding: 2.25cm 0;
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+footer {
+  position: fixed;
+  background-color: #FFFC;
+  border-top: 0.25em double white;
+  bottom: 0;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  color: #000;
+}
+
+footer a, footer a:visited {
+  color: #000;
+  text-decoration: none;
+  transition: var(--transecond);
+  cursor: pointer;
+}
+
+footer a:hover {
+  box-shadow: 0 0.1em black;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #FFFA;
+  text-align: center;
+  font-size: 1cm;
+  padding: 0.25em 0;
+  border-bottom: 0.2em dashed white;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: var(--transecond);
+}
+
+header a:hover {
+  color: #555;
+}
